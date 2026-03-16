@@ -11,6 +11,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "HelloBiom",
   description: "Skin microbiome analysis",
+  icons: { icon: "/bacteria.svg" },
 };
 
 export default function RootLayout({
