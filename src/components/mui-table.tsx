@@ -1,3 +1,5 @@
+"use client";
+
 import type { CSSProperties } from "react";
 import type { SxProps, Theme } from "@mui/material";
 import Table from "@mui/material/Table";
@@ -14,9 +16,9 @@ import { useMicrobeTable } from "../hooks/use-microbe-table";
 import styles from "./mui-table.module.css";
 
 const roleStyles: Record<MicrobeRole, CSSProperties> = {
-  Beneficial: { backgroundColor: "var(--color-mid)",            color: "var(--color-dark)"           },
-  Neutral:    { backgroundColor: "var(--color-light)",           color: "var(--color-primary)"        },
-  Pathogenic: { backgroundColor: "var(--color-pathogenic-bg)",   color: "var(--color-pathogenic-text)" },
+  beneficial: { backgroundColor: "var(--color-mid)",           color: "var(--color-dark)"            },
+  neutral:    { backgroundColor: "var(--color-light)",          color: "var(--color-primary)"         },
+  pathogenic: { backgroundColor: "var(--color-pathogenic-bg)",  color: "var(--color-pathogenic-text)" },
 };
 
 const HEADER_CELL_SX: SxProps<Theme> = {

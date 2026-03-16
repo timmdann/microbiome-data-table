@@ -1,11 +1,12 @@
-export type Filter = "all" | "Bacteria" | "Fungi";
+export type Filter = "all" | "bacteria" | "fungi";
 export type Order = "asc" | "desc";
-export type MicrobeRole = "Beneficial" | "Neutral" | "Pathogenic";
+export type MicrobeRole = "beneficial" | "neutral" | "pathogenic";
+export type MicrobeType = "bacteria" | "fungi";
 
 export interface Microbe {
-  id: number;
+  id: string;
   name: string;
-  type: "Bacteria" | "Fungi";
+  type: MicrobeType;
   abundance: number;
   role: MicrobeRole;
 }

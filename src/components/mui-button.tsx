@@ -8,8 +8,8 @@ type FilterButtonProps = {
 
 const FILTERS: { label: string; value: Filter }[] = [
   { label: "All", value: "all" },
-  { label: "Bacteria", value: "Bacteria" },
-  { label: "Fungi", value: "Fungi" },
+  { label: "Bacteria", value: "bacteria" },
+  { label: "Fungi",    value: "fungi"    },
 ];
 
 const activeSx = {
