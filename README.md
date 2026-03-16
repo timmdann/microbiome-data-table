@@ -10,6 +10,10 @@ A React + Next.js application for visualizing skin microbiome data with filterin
 - **CSS Modules** — component-level styling
 - **next/font** — Roboto (Google Fonts)
 
+## Live Demo
+
+[https://microbiome-data-table.vercel.app](https://microbiome-data-table.vercel.app)
+
 ## Getting Started
 
 ```bash
