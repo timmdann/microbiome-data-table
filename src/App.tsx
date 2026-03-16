@@ -1,14 +1,9 @@
-//import { useState } from "react";
-import BasicTable from "./components/muiTable";
+import MicrobeTable from "./components/mui-table";
 
-function App() {
-  //const [count, setCount] = useState(0);
-
+export default function App() {
   return (
     <div>
-      <BasicTable />
+      <MicrobeTable />
     </div>
   );
 }
-
-export default App;
